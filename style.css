@@ -1,0 +1,494 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "IBM Plex Sans";
+}
+
+/* Sections */
+.main-section {
+  max-width: 100%;
+  height: 194.5rem;
+  background-image: url(/assets/bg-main-mobile.png);
+  background-repeat: no-repeat;
+  background-position: right 100% top -20%;
+}
+
+.logo {
+  padding-top: 3.9rem;
+  padding-left: 2.4rem;
+}
+
+.content-container {
+  padding-top: 6.4rem;
+  padding-left: 2.4rem;
+}
+.content-container h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+  letter-spacing: -0.045rem;
+}
+.content-container p {
+  max-width: 32.7rem;
+  padding-top: 2rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  margin-bottom: 16.6rem;
+}
+
+.bg-mobile {
+  max-width: 100%;
+  height: 60rem;
+  background-image: url(/assets/bg-pattern-2.svg);
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: top -10% center;
+  border-radius: 1.2rem;
+}
+
+.mobile {
+  /* display: none; */
+  position: relative;
+  max-width: 20.897rem;
+  height: 45rem;
+  margin-left: 8rem;
+  margin-right: 8.5rem;
+  margin-top: -10rem;
+}
+
+.pricing-section {
+  margin-top: 4.8rem;
+  max-width: 100%;
+  height: 54.6rem;
+  background-color: #fa7453;
+  border-radius: 1.2rem;
+}
+
+.pricing-container {
+  max-width: 30.02rem;
+  padding-left: 3.6rem;
+}
+.pricing-container h1 {
+  padding-top: 4.8rem;
+  font-size: 3.2rem;
+  color: #fcfaf9;
+  font-weight: 700;
+}
+.pricing-container p {
+  padding-top: 1.2rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  color: #fcfaf9;
+  padding-bottom: 1.6rem;
+}
+
+.four {
+  font-size: 6.5rem;
+  color: #fcfaf9;
+}
+
+.month {
+  padding-left: 1rem;
+  color: #fcfaf9;
+  font-size: 2rem;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.ios-btn {
+  max-width: 29.6rem;
+  height: 6.1rem;
+  border: none;
+  border-radius: 1.2rem;
+  font-size: 1.8rem;
+  background-color: black;
+  color: #fcfaf9;
+}
+.android-btn {
+  margin-top: 1.6rem;
+  max-width: 29.6rem;
+  height: 6.1rem;
+  border: none;
+  border-radius: 1.2rem;
+  font-size: 1.8rem;
+  background-color: #fcfaf9;
+  color: black;
+}
+
+.logo-footer {
+  padding-top: 6.39rem;
+  padding-left: 2.5rem;
+}
+
+.footer-content {
+  padding-top: 3.2rem;
+  /* padding-left: 3.6rem; */
+}
+
+.footer-content p {
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+  max-width: 30rem;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+.footer-content span {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2.6rem;
+}
+
+.icon-container {
+  display: flex;
+  gap: 2rem;
+  padding-top: 6.4rem;
+  padding-left: 2.4rem;
+}
+
+/* Queries */
+
+@media (min-width: 768px) {
+  /* Sections */
+  .main-section {
+    max-width: 100%;
+    height: 178.1rem;
+    background-image: url(/assets/bg-main-tablet.png),
+      url(/assets/bg-pattern-1.svg);
+    background-repeat: no-repeat;
+    background-position: right 10% top -50%, left 106% top -2%;
+    background-size: 25.67rem 35rem;
+  }
+
+  .logo {
+    padding-top: 3.9rem;
+    padding-left: 3.9rem;
+  }
+
+  .content-container {
+    padding-top: 9.5rem;
+    padding-left: 3.9rem;
+  }
+  .content-container h1 {
+    max-width: 52rem;
+    font-size: 6.4rem;
+    font-weight: 700;
+    line-height: 6.4rem;
+    letter-spacing: -0.073rem;
+  }
+  .content-container p {
+    max-width: 51.4rem;
+    padding-top: 2rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    margin-bottom: 16.6rem;
+  }
+
+  .bg-mobile {
+    margin-left: 3.3rem;
+    max-width: 69.6rem;
+    height: 60rem;
+    background-image: url(/assets/bg-pattern-2.svg);
+    background-repeat: no-repeat;
+    background-size: 28rem;
+    background-color: black;
+    background-position: top -15% left 25.5rem;
+    border-radius: 1.2rem;
+  }
+
+  .mobile {
+    /* display: none; */
+    position: relative;
+    max-width: 27rem;
+    height: 55.6rem;
+    margin-left: 8rem;
+    margin-right: 8.5rem;
+    margin-top: -10rem;
+  }
+
+  .pricing-section {
+    position: relative;
+    margin-top: -30.5rem;
+    margin-left: 25.5rem;
+    max-width: 39.9rem;
+    height: 54.6rem;
+    background-color: #fa7453;
+    border-radius: 1.2rem;
+  }
+
+  .pricing-container {
+    max-width: 30.02rem;
+    padding-left: 3.6rem;
+  }
+  .pricing-container h1 {
+    padding-top: 4.8rem;
+    font-size: 3.2rem;
+    color: #fcfaf9;
+    font-weight: 700;
+  }
+  .pricing-container p {
+    padding-top: 1.2rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+    color: #fcfaf9;
+    padding-bottom: 1.6rem;
+  }
+
+  .four {
+    font-size: 6.5rem;
+    color: #fcfaf9;
+  }
+
+  .month {
+    padding-left: 1rem;
+    color: #fcfaf9;
+    font-size: 2rem;
+  }
+
+  .btn-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  .ios-btn {
+    max-width: 29.6rem;
+    height: 6.1rem;
+    border: none;
+    border-radius: 1.2rem;
+    font-size: 1.8rem;
+    background-color: black;
+    color: #fcfaf9;
+  }
+  .android-btn {
+    margin-top: 1.6rem;
+    max-width: 29.6rem;
+    height: 6.1rem;
+    border: none;
+    border-radius: 1.2rem;
+    font-size: 1.8rem;
+    background-color: #fcfaf9;
+    color: black;
+  }
+
+  .logo-footer {
+    padding-top: 18.2rem;
+    padding-left: 3.4rem;
+  }
+
+  .footer-content {
+    padding-top: 3.2rem;
+    /* padding-left: 3.6rem; */
+  }
+
+  .footer-content p {
+    max-width: 36.6rem;
+    padding-left: 3.3rem;
+    padding-right: 2.4rem;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+  .footer-content span {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+  }
+
+  .icon-container {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    margin-top: -6rem;
+    padding-top: 0.4rem;
+    padding-left: 2.4rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  /* Sections */
+  .main-section {
+    max-width: 100%;
+    height: 183.2rem;
+    background-image: url(/assets/bg-main-desktop.png),
+      url(/assets/bg-pattern-1.svg);
+    background-repeat: no-repeat;
+    background-position: top 100% right 40%, left 101% top -2%;
+    background-size: 191.3rem 205.8rem, 31.02rem 46.8rem;
+  }
+
+  .logo {
+    padding-top: 3.9rem;
+    padding-left: 16.5rem;
+  }
+
+  .content-container {
+    padding-top: 22.1rem;
+    padding-left: 16.5rem;
+  }
+  .content-container h1 {
+    max-width: 101.05rem;
+    font-size: 8.8rem;
+    font-weight: 700;
+    line-height: 8.8rem;
+    letter-spacing: -0.1rem;
+  }
+  .content-container p {
+    max-width: 82.5rem;
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.4rem;
+  }
+
+  .bg-mobile {
+    margin-top: 20.1rem;
+    margin-left: 16.5rem;
+    max-width: 111rem;
+    height: 60rem;
+    background-image: url(/assets/bg-pattern-2.svg);
+    background-repeat: no-repeat;
+    background-size: 31.2rem;
+    background-color: black;
+    background-position: top -15% left 30.5rem;
+    border-radius: 1.2rem;
+  }
+
+  .mobile {
+    /* display: none; */
+    position: relative;
+    max-width: 27rem;
+    height: 55.6rem;
+    margin-left: 8rem;
+    right: -3%;
+    margin-top: -10rem;
+  }
+
+  .pricing-section {
+    position: relative;
+    margin-top: -35.5rem;
+    margin-left: 55.5rem;
+    max-width: 44.6rem;
+    height: 62.5rem;
+    background-color: #fa7453;
+    border-radius: 1.2rem;
+  }
+
+  .pricing-container {
+    max-width: 100%;
+    padding-left: 5.4rem;
+  }
+  .pricing-container h1 {
+    padding-top: 4.8rem;
+    font-size: 4rem;
+    color: #fcfaf9;
+    font-weight: 700;
+  }
+  .pricing-container p {
+    max-width: 33.3rem;
+    padding-top: 2.2rem;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.4rem;
+    color: #fcfaf9;
+    padding-bottom: 1.6rem;
+  }
+
+  .four {
+    font-size: 6.5rem;
+    color: #fcfaf9;
+  }
+
+  .month {
+    padding-left: 1rem;
+    color: #fcfaf9;
+    font-size: 2rem;
+  }
+
+  .btn-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 4.6rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ios-btn {
+    max-width: 33.3rem;
+    height: 6.1rem;
+    border: none;
+    border-radius: 1.2rem;
+    font-size: 1.8rem;
+    background-color: black;
+    color: #fcfaf9;
+  }
+  .ios-btn:hover {
+    background-color: #66e2dc;
+  }
+  .android-btn {
+    margin-top: 1.6rem;
+    max-width: 33.3rem;
+    height: 6.1rem;
+    border: none;
+    border-radius: 1.2rem;
+    font-size: 1.8rem;
+    background-color: #fcfaf9;
+    color: black;
+  }
+  .android-btn:hover {
+    background-color: #ffb964;
+  }
+  .logo-footer {
+    padding-top: 18.2rem;
+    padding-left: 3.4rem;
+  }
+
+  .footer-content {
+    position: relative;
+    margin-left: 30rem;
+
+    margin-top: -7rem;
+    /* padding-left: 3.6rem; */
+  }
+
+  .footer-content p {
+    max-width: 36.6rem;
+    padding-left: 3.3rem;
+    padding-right: 2.4rem;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+  .footer-content span {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+  }
+
+  .icon-container {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    margin-top: -6rem;
+    padding-top: 0.4rem;
+    padding-left: 2.4rem;
+  }
+
+  .icon:hover {
+    background-color: #fa7453;
+  }
+}
