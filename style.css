@@ -12,7 +12,7 @@ html {
 .main-section {
   max-width: 100%;
   height: 194.5rem;
-  background-image: url(/assets/bg-main-mobile.png);
+  background-image: url(assets/bg-main-mobile.png);
   background-repeat: no-repeat;
   background-position: right 100% top -20%;
 }
@@ -44,7 +44,7 @@ html {
 .bg-mobile {
   max-width: 100%;
   height: 60rem;
-  background-image: url(/assets/bg-pattern-2.svg);
+  background-image: url(assets/bg-pattern-2.svg);
   background-repeat: no-repeat;
   background-color: black;
   background-position: top -10% center;
@@ -163,8 +163,8 @@ html {
   .main-section {
     max-width: 100%;
     height: 178.1rem;
-    background-image: url(/assets/bg-main-tablet.png),
-      url(/assets/bg-pattern-1.svg);
+    background-image: url(assets/bg-main-tablet.png),
+      url(assets/bg-pattern-1.svg);
     background-repeat: no-repeat;
     background-position: right 10% top -50%, left 106% top -2%;
     background-size: 25.67rem 35rem;
@@ -199,7 +199,7 @@ html {
     margin-left: 3.3rem;
     max-width: 69.6rem;
     height: 60rem;
-    background-image: url(/assets/bg-pattern-2.svg);
+    background-image: url(assets/bg-pattern-2.svg);
     background-repeat: no-repeat;
     background-size: 28rem;
     background-color: black;
@@ -323,8 +323,8 @@ html {
   .main-section {
     max-width: 100%;
     height: 183.2rem;
-    background-image: url(/assets/bg-main-desktop.png),
-      url(/assets/bg-pattern-1.svg);
+    background-image: url(assets/bg-main-desktop.png),
+      url(assets/bg-pattern-1.svg);
     background-repeat: no-repeat;
     background-position: top 100% right 40%, left 101% top -2%;
     background-size: 191.3rem 205.8rem, 31.02rem 46.8rem;
@@ -359,7 +359,7 @@ html {
     margin-left: 16.5rem;
     max-width: 111rem;
     height: 60rem;
-    background-image: url(/assets/bg-pattern-2.svg);
+    background-image: url(assets/bg-pattern-2.svg);
     background-repeat: no-repeat;
     background-size: 31.2rem;
     background-color: black;
